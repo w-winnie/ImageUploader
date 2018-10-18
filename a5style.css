@@ -1,0 +1,52 @@
+body {
+    background-color:#FFF4D5;
+}
+h1,h2{
+    color:firebrick;
+    text-align:center;
+    font-weight: bold;
+}
+p{
+    text-align:center;
+}
+span{
+    text-weight:bold;
+    color:crimson;
+}
+form{
+    background-color:FFB48C;
+    margin: 3% 10%;
+    padding: 1%;
+    color: crimson;
+}
+fieldset{
+    border: 3px solid #AD611F;
+    padding: 10px;
+}
+legend{
+    text-align: center;
+    font-size: 2em;
+}
+input[type=submit]{
+    margin-left: 45%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:#FFB48C;  
+    margin-top: 2%;
+}
+input[type=file]{
+    color: crimson;
+    font-size: 20px;
+    background-color:#FFB48C;  
+    margin-top: 2%;
+}
+input[type=submit]:focus{
+    argin-left: 45%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:#FFC593;
+    margin-top: 2%;
+}
+
